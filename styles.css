@@ -1,10 +1,15 @@
-th,td,h1,h2,p{
+th,td,h1,h2{
   text-align: center;
 }
+
+th,td,h1,h2,p,table,ol,tr{
+  color: whit
+}
+
 body{
   background-image: url("med2.gif");
   background-size: cover;
-  background-color: cyan;
+  background-color:;
   height: 50px;
 }
 
