@@ -1,16 +1,31 @@
-th,td,h1,h2{
-  text-align: center;
-}
 
-th,td,h1,h2,p,table,ol,tr{
-  color: whit
-}
 
-body{
-  background-image: url("med2.gif");
-  background-size: cover;
-  background-color:;
-  height: 50px;
+body {
+  margin: 0;
 }
 
 
+.bar{
+  border-bottom : solid #C4C4C4;
+}
+
+
+
+.container{
+  padding: 30px 450px 500px;
+}
+
+
+.titre{
+  font-size:150%;
+  display:grid;
+  margin-bottom:70px;
+}
+
+.titre img{
+  display:block;
+}
+
+.titre h1{
+  margin:0;
+}
