@@ -4,12 +4,12 @@ body {
   margin: 0;
   background: linear-gradient(
     to right,
-    #4facfe 0px,
-    #4facfe 250px,
-    white 250px,
-    white 1615px,
-    #4facfe 1615px,
-    #4facfe 2250px
+    #f0f0f2 0%,
+    #f0f0f2 14%,
+    white 15%,
+    white 85%,
+    #f0f0f2 86%,
+    #f0f0f2 100%
   );
 }
 
@@ -18,15 +18,12 @@ body {
   display: flex;
   gap : 50px;
   align-items: center;
-  border-bottom : solid #C4C4C4;
-  border-bottom : solid #C4C4C4;
   margin: 0;
   background: linear-gradient(
     to bottom,
-    black 0%,
-    black 40%,
-    black 40%,
-    black 100%
+    #360E80 0%,
+   #360E80 35%,
+   black 100%
   );
   
 }
@@ -58,7 +55,7 @@ body {
 
 
 .container{
-  padding: 30px 250px 250px;
+ padding: 30px  15% 15%;
 }
 
 
@@ -80,6 +77,7 @@ body {
 text-align: center;
   
 }
+
 
 
 
