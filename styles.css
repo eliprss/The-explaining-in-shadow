@@ -40,7 +40,7 @@ body {
 }
 
 .bar_space{
-  margin-left: 930px;
+  margin-left: 50%;
   display:flex;
   gap: 40px;
 }
@@ -79,6 +79,7 @@ text-align: center;
 a{
   color:#B05EE6;
 }
+
 
 
 
