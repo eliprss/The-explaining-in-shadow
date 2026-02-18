@@ -1,18 +1,15 @@
-
-
 body {
   margin: 0;
   background: linear-gradient(
     to right,
-    #f0f0f2 0%,
-    #f0f0f2 14%,
-    white 15%,
-    white 85%,
-    #f0f0f2 86%,
-    #f0f0f2 100%
+    black 0%,
+    black 10%,
+    #360E80 15%,
+   #360E80 85%,
+    black 90%,
+    black 100%
   );
 }
-
 
 .bar{
   display: flex;
@@ -25,15 +22,15 @@ body {
    #360E80 35%,
    black 100%
   );
-  
 }
+
 .btn {  
   display:flex;
   width: 150px;
   height: 50px;
   border-radius: 35px;
   border: none;
-  background-color: white;
+  background-color: #B05EE6;
   color : #261B33;
   cursor: pointer;
   font-weight: bold;
@@ -45,17 +42,19 @@ body {
 .bar_space{
   margin-left: 930px;
   display:flex;
-  gap: 40px
+  gap: 40px;
 }
 
 
 .btn:hover{
-  background-color: #918C96;
+  background-color: #4D02B0;
 }
 
 
 .container{
  padding: 30px  15% 15%;
+    font-family: arial;
+  color:#B05EE6;
 }
 
 
@@ -70,12 +69,15 @@ body {
 }
 
 .titre h1{
-  margin:0;
+  margin:500;
 }
 
 .titre,td{
 text-align: center;
   
+}
+a{
+  color:#B05EE6;
 }
 
 
