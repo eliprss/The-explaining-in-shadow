@@ -82,8 +82,10 @@ a{
 
 
 table{
+   border-collapse: collapse;
     color:#B05EE6;
 }
+
 
 
 
