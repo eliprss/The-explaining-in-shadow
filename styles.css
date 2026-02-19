@@ -55,7 +55,7 @@ body {
 
 
 .container{
- padding: 30px  15% 15%;
+ padding: 222px  15% 15%;
     font-family: arial;
   color:#B05EE6;
 }
@@ -102,6 +102,7 @@ table{
   height: 50px;
 }
 
+
 .logo {
   height: 80px;
   transition: transform 0.3s ease;
@@ -112,6 +113,7 @@ table{
 .bar.small .logo {
   transform: scale(0.6);
 }
+
 
 .bar.small:hover .logo {
   transform: scale(1);
@@ -151,6 +153,7 @@ table{
   height: 50px;
   font-size: 16px;
 }
+
 
 
 
