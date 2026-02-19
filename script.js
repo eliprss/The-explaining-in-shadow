@@ -30,3 +30,24 @@ else if (monChoix.value=="5"){
 }
 
 
+window.addEventListener("scroll", function() {
+  const bar = document.querySelector(".bar");
+
+  if (window.scrollY > 50) {
+    bar.classList.add("small");
+  } else {
+    bar.classList.remove("small");
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
