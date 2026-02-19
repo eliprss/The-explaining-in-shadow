@@ -13,6 +13,7 @@ body {
 
 .bar{
   display: flex;
+  width: 100%;
   gap : 50px;
   align-items: center;
   margin: 0;
@@ -40,7 +41,7 @@ body {
 }
 
 .bar_space{
-  margin-left: 60%;
+  margin-left: 50%;
   display:flex;
   gap: 40px;
 }
@@ -85,6 +86,7 @@ table{
    border-collapse: collapse;
     color:#B05EE6;
 }
+
 
 
 
