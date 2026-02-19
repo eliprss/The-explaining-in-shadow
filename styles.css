@@ -12,11 +12,14 @@ body {
 }
 
 .bar{
-  display: flex;
+  position:fixed;
   width: 100%;
+  height: 100px;
+  display: flex;
   gap : 50px;
   align-items: center;
   margin: 0;
+  transition: all 0.3s ease;
   background: linear-gradient(
     to bottom,
     #360E80 0%,
@@ -26,7 +29,6 @@ body {
 }
 
 .btn {  
-
   width: 150px;
   height: 50px;
   border-radius: 35px;
@@ -41,7 +43,7 @@ body {
 }
 
 .bar_space{
-  margin-left: 50%;
+  margin-left: 60%;
   display:flex;
   gap: 40px;
 }
@@ -77,6 +79,7 @@ body {
 text-align: center;
   
 }
+
 a{
   color:#B05EE6;
 }
@@ -86,6 +89,69 @@ table{
    border-collapse: collapse;
     color:#B05EE6;
 }
+
+
+.bar.small:hover{
+  height: 100px;
+  width:100%;
+}
+
+
+
+.bar.small {
+  height: 50px;
+}
+
+.logo {
+  height: 80px;
+  transition: transform 0.3s ease;
+  transform-origin: left center;
+}
+
+
+.bar.small .logo {
+  transform: scale(0.6);
+}
+
+.bar.small:hover .logo {
+  transform: scale(1);
+}
+
+
+.btn {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+
+.bar.small {
+  height: 50px;
+}
+
+
+.bar.small .btn {
+  width: 100px;
+  height: 35px;
+  font-size: 14px;
+}
+
+
+.bar.small:hover {
+  height: 100px;
+}
+
+.bar.small:hover .logo {
+  height: 80px;
+}
+
+.bar.small:hover .btn {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+}
+
 
 
 
