@@ -43,7 +43,7 @@ body {
 }
 
 .bar_space{
-  margin-left: 60%;
+  margin-left: 40%;
   display:flex;
   gap: 40px;
 }
@@ -153,6 +153,7 @@ table{
   height: 50px;
   font-size: 16px;
 }
+
 
 
 
