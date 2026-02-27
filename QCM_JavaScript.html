@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="style.css" />
+	<script src="script.js"></script>
+  <title>Quiz</title>
+</head>
+<body>
+  <div class="bar">  
+     <a href="index.html"> <img src=logo.png width=200px></a>
+     <div class="bar_space">
+       <button class="btn" type="button">Shadow</button>
+       <button class="btn" type="button">Avis</button>
+       <button class="btn" type="button">Quiz</button>
+     </div>
+</div>
+ <div class="container">
+<div class="titre">  
+  <h1>Quiz</h1> 
+</div>
+   
+   <p>Le protagoniste vie sa deuxième vie?</p>
+<input type ="button" class="btn" value="Vrai"  onclick="bout()"/>
+<input type ="button" class="btn" value="Faux" onclick="pas_bon()"/>
+<p id="Q1"></p>
+
+   
+  <p>Qui est la première elfe recruter?</p>
+   <select id="qu2" class="btn" name="lang" onchange="bon()">
+<option value=""> Choisir une réponse </option>
+<option value="g"> Gamma </option>
+<option value="a"> Alpha </option>
+<option value="e"> Epsilon </option>
+<option value="d"> Delta </option>   
+</select>
+<p id="Q2"></p>
+
+<p id ="sc"></p>
+</div>
+</body>
+</html><
