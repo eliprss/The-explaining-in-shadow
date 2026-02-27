@@ -5,6 +5,9 @@ function btn_shadow() {
 function btn_auteur() {
    location.href="https://eliprss.github.io/The-explaining-in-shadow/auteur.html";
 }
+function btn_quiz(){
+  location.href="https://eliprss.github.io/The-explaining-in-shadow/QCM_JavaScript.html";
+}
 
 function note() {
   var reponse = document.getElementById("Id_Reponse").value;
@@ -40,6 +43,26 @@ window.addEventListener("scroll", function() {
   }
 });
 
+function bout() {
+  document.getElementById('Q1').innerHTML="Bonne réponse"
+  score=score+1
+}
+
+function bon() {
+  var score = 0
+  const select = document.getElementById("qu2");
+  const rep = select[select.selectedIndex];
+  if  (rep.value=="g" || rep.value=="e" || rep.value=="d"){
+      document.getElementById('Q2').innerHTML="Mauvaise réponse"
+    }
+    if  (rep.value=="a"){
+      document.getElementById('Q2').innerHTML="Bonne réponse"
+      score=score+1
+    }
+}
+function pas_bon() {
+  document.getElementById('Q1').innerHTML="Mauvaise réponse"
+}
 
 
 
