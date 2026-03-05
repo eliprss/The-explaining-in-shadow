@@ -43,13 +43,14 @@ window.addEventListener("scroll", function() {
   }
 });
 
+var score=0;
+
 function bout() {
   document.getElementById('Q1').innerHTML="Bonne réponse"
   score=score+1
 }
 
 function bon() {
-  var score = 0
   const select = document.getElementById("qu2");
   const rep = select[select.selectedIndex];
   if  (rep.value=="g" || rep.value=="e" || rep.value=="d"){
@@ -65,7 +66,22 @@ function pas_bon() {
 }
 
 
+function valid() {
+  var reponse = document.getElementById("reponseq3").value;
+  
+  if (reponse.toLowerCase() == "shadow") {
+    document.getElementById("Q3").innerHTML = "Bonne réponse !";
+    score=score+1;
+    afficherScore()
+  } else {
+    document.getElementById("Q3").innerHTML = "Mauvaise réponse !";
+    afficherScore()
+  }
+    }
 
+function afficherScore() {
+  document.getElementById('sc').innerHTML = "Score : " + score +"/3";
+}
 
 
 
